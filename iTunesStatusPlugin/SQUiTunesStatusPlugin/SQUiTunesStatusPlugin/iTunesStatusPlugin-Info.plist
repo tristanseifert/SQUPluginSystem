@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>co.squee.teletype.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2012 Squee! Apps. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>SQUiTunesPlugin</string>
+	<key>SQUPluginUUID</key>
+	<string>DC054853-6FCD-4DDF-AF38-7DFEEF6D3D95</string>
+	<key>SQUPluginIcon</key>
+	<string>itunes-file</string>
+	<key>SQUPluginInfo</key>
+	<dict>
+		<key>title</key>
+		<string>iTunes Status</string>
+		<key>author</key>
+		<string>Tristan Seifert</string>
+		<key>version</key>
+		<string>1.0</string>
+		<key>description</key>
+		<string>Updates account status to currently playing iTunes track information.</string>
+	</dict>
+	<key>SQUPluginPermission</key>
+	<array>
+		<string>updateStatus</string>
+	</array>
+</dict>
+</plist>

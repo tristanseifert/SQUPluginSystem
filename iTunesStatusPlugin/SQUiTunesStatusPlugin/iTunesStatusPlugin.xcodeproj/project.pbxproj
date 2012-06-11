@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEAB70FA1586533000E665E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAB70F91586533000E665E6 /* Cocoa.framework */; };
+		DEAB71141586537E00E665E6 /* SQUiTunesPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB710D1586537E00E665E6 /* SQUiTunesPlugin.m */; };
+		DEAB71151586537E00E665E6 /* itunes-file.icns in Resources */ = {isa = PBXBuildFile; fileRef = DEAB710E1586537E00E665E6 /* itunes-file.icns */; };
+		DEAB71161586537E00E665E6 /* iTunesStatusPlugin-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEAB710F1586537E00E665E6 /* iTunesStatusPlugin-Info.plist */; };
+		DEAB71171586537E00E665E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEAB71101586537E00E665E6 /* InfoPlist.strings */; };
+		DEAB71181586537E00E665E6 /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEAB71121586537E00E665E6 /* defaults.plist */; };
+		DEAB71191586537E00E665E6 /* SQUiTunesPrefUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEAB71131586537E00E665E6 /* SQUiTunesPrefUI.xib */; };
+		DEAB711B1586541000E665E6 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAB711A1586541000E665E6 /* ScriptingBridge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEAB70F61586533000E665E6 /* iTunesStatusPlugin.teleplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesStatusPlugin.teleplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAB70F91586533000E665E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DEAB70FC1586533000E665E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DEAB70FD1586533000E665E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DEAB70FE1586533000E665E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEAB710B1586537E00E665E6 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		DEAB710C1586537E00E665E6 /* SQUiTunesPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQUiTunesPlugin.h; sourceTree = "<group>"; };
+		DEAB710D1586537E00E665E6 /* SQUiTunesPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQUiTunesPlugin.m; sourceTree = "<group>"; };
+		DEAB710E1586537E00E665E6 /* itunes-file.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "itunes-file.icns"; sourceTree = "<group>"; };
+		DEAB710F1586537E00E665E6 /* iTunesStatusPlugin-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iTunesStatusPlugin-Info.plist"; sourceTree = "<group>"; };
+		DEAB71101586537E00E665E6 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		DEAB71111586537E00E665E6 /* iTunesStatusPlugin-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iTunesStatusPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		DEAB71121586537E00E665E6 /* defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = defaults.plist; sourceTree = "<group>"; };
+		DEAB71131586537E00E665E6 /* SQUiTunesPrefUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQUiTunesPrefUI.xib; sourceTree = "<group>"; };
+		DEAB711A1586541000E665E6 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ScriptingBridge.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEAB70F31586533000E665E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB711B1586541000E665E6 /* ScriptingBridge.framework in Frameworks */,
+				DEAB70FA1586533000E665E6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEAB70EB1586532F00E665E6 = {
+			isa = PBXGroup;
+			children = (
+				DEAB711A1586541000E665E6 /* ScriptingBridge.framework */,
+				DEAB70FF1586533000E665E6 /* SQUiTunesStatusPlugin */,
+				DEAB70F81586533000E665E6 /* Frameworks */,
+				DEAB70F71586533000E665E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEAB70F71586533000E665E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB70F61586533000E665E6 /* iTunesStatusPlugin.teleplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEAB70F81586533000E665E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB70F91586533000E665E6 /* Cocoa.framework */,
+				DEAB70FB1586533000E665E6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEAB70FB1586533000E665E6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB70FC1586533000E665E6 /* AppKit.framework */,
+				DEAB70FD1586533000E665E6 /* CoreData.framework */,
+				DEAB70FE1586533000E665E6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DEAB70FF1586533000E665E6 /* SQUiTunesStatusPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB710B1586537E00E665E6 /* iTunes.h */,
+				DEAB710C1586537E00E665E6 /* SQUiTunesPlugin.h */,
+				DEAB710D1586537E00E665E6 /* SQUiTunesPlugin.m */,
+				DEAB710E1586537E00E665E6 /* itunes-file.icns */,
+				DEAB710F1586537E00E665E6 /* iTunesStatusPlugin-Info.plist */,
+				DEAB71101586537E00E665E6 /* InfoPlist.strings */,
+				DEAB71111586537E00E665E6 /* iTunesStatusPlugin-Prefix.pch */,
+				DEAB71121586537E00E665E6 /* defaults.plist */,
+				DEAB71131586537E00E665E6 /* SQUiTunesPrefUI.xib */,
+			);
+			path = SQUiTunesStatusPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEAB70F51586533000E665E6 /* iTunesStatusPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAB71081586533000E665E6 /* Build configuration list for PBXNativeTarget "iTunesStatusPlugin" */;
+			buildPhases = (
+				DEAB70F21586533000E665E6 /* Sources */,
+				DEAB70F31586533000E665E6 /* Frameworks */,
+				DEAB70F41586533000E665E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesStatusPlugin;
+			productName = SQUiTunesStatusPlugin;
+			productReference = DEAB70F61586533000E665E6 /* iTunesStatusPlugin.teleplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEAB70ED1586532F00E665E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Squee! Apps";
+			};
+			buildConfigurationList = DEAB70F01586532F00E665E6 /* Build configuration list for PBXProject "iTunesStatusPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEAB70EB1586532F00E665E6;
+			productRefGroup = DEAB70F71586533000E665E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEAB70F51586533000E665E6 /* iTunesStatusPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEAB70F41586533000E665E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB71151586537E00E665E6 /* itunes-file.icns in Resources */,
+				DEAB71161586537E00E665E6 /* iTunesStatusPlugin-Info.plist in Resources */,
+				DEAB71171586537E00E665E6 /* InfoPlist.strings in Resources */,
+				DEAB71181586537E00E665E6 /* defaults.plist in Resources */,
+				DEAB71191586537E00E665E6 /* SQUiTunesPrefUI.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEAB70F21586533000E665E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB71141586537E00E665E6 /* SQUiTunesPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEAB71061586533000E665E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DEAB71071586533000E665E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DEAB71091586533000E665E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQUiTunesStatusPlugin/SQUiTunesStatusPlugin-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../..\"";
+				INFOPLIST_FILE = "SQUiTunesStatusPlugin/iTunesStatusPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = iTunesStatusPlugin;
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = teleplugin;
+			};
+			name = Debug;
+		};
+		DEAB710A1586533000E665E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQUiTunesStatusPlugin/SQUiTunesStatusPlugin-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../..\"";
+				INFOPLIST_FILE = "SQUiTunesStatusPlugin/iTunesStatusPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = iTunesStatusPlugin;
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = teleplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEAB70F01586532F00E665E6 /* Build configuration list for PBXProject "iTunesStatusPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB71061586533000E665E6 /* Debug */,
+				DEAB71071586533000E665E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAB71081586533000E665E6 /* Build configuration list for PBXNativeTarget "iTunesStatusPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB71091586533000E665E6 /* Debug */,
+				DEAB710A1586533000E665E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEAB70ED1586532F00E665E6 /* Project object */;
+}
