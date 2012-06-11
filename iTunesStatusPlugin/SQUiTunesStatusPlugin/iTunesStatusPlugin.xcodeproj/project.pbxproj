@@ -10,12 +10,47 @@
 		DEAB70FA1586533000E665E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAB70F91586533000E665E6 /* Cocoa.framework */; };
 		DEAB71141586537E00E665E6 /* SQUiTunesPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB710D1586537E00E665E6 /* SQUiTunesPlugin.m */; };
 		DEAB71151586537E00E665E6 /* itunes-file.icns in Resources */ = {isa = PBXBuildFile; fileRef = DEAB710E1586537E00E665E6 /* itunes-file.icns */; };
-		DEAB71161586537E00E665E6 /* iTunesStatusPlugin-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEAB710F1586537E00E665E6 /* iTunesStatusPlugin-Info.plist */; };
 		DEAB71171586537E00E665E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEAB71101586537E00E665E6 /* InfoPlist.strings */; };
 		DEAB71181586537E00E665E6 /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEAB71121586537E00E665E6 /* defaults.plist */; };
 		DEAB71191586537E00E665E6 /* SQUiTunesPrefUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEAB71131586537E00E665E6 /* SQUiTunesPrefUI.xib */; };
 		DEAB711B1586541000E665E6 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAB711A1586541000E665E6 /* ScriptingBridge.framework */; };
+		DEAB7125158654A000E665E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAB70F91586533000E665E6 /* Cocoa.framework */; };
+		DEAB712B158654A000E665E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEAB7129158654A000E665E6 /* InfoPlist.strings */; };
+		DEAB712D158654A000E665E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB712C158654A000E665E6 /* main.m */; };
+		DEAB7131158654A000E665E6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DEAB712F158654A000E665E6 /* Credits.rtf */; };
+		DEAB7134158654A000E665E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB7133158654A000E665E6 /* AppDelegate.m */; };
+		DEAB7137158654A000E665E6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEAB7135158654A000E665E6 /* MainMenu.xib */; };
+		DEAB713F158654FA00E665E6 /* OnOffSwitchControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB713C158654FA00E665E6 /* OnOffSwitchControl.m */; };
+		DEAB7140158654FA00E665E6 /* OnOffSwitchControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB713E158654FA00E665E6 /* OnOffSwitchControlCell.m */; };
+		DEAB71441586553A00E665E6 /* SQUPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB71421586553A00E665E6 /* SQUPluginManager.m */; };
+		DEAB71461586567600E665E6 /* iTunesStatusPlugin.teleplugin in Copy Plugin */ = {isa = PBXBuildFile; fileRef = DEAB70F61586533000E665E6 /* iTunesStatusPlugin.teleplugin */; };
+		DEAB714B1586568E00E665E6 /* SQUUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB714A1586568E00E665E6 /* SQUUtilities.m */; };
+		DEAB714D1586573B00E665E6 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAB714C1586573B00E665E6 /* Carbon.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEAB71471586567D00E665E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAB70ED1586532F00E665E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAB70F51586533000E665E6;
+			remoteInfo = iTunesStatusPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEAB71451586566D00E665E6 /* Copy Plugin */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DEAB71461586567600E665E6 /* iTunesStatusPlugin.teleplugin in Copy Plugin */,
+			);
+			name = "Copy Plugin";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DEAB70F61586533000E665E6 /* iTunesStatusPlugin.teleplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesStatusPlugin.teleplugin; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +68,25 @@
 		DEAB71121586537E00E665E6 /* defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = defaults.plist; sourceTree = "<group>"; };
 		DEAB71131586537E00E665E6 /* SQUiTunesPrefUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQUiTunesPrefUI.xib; sourceTree = "<group>"; };
 		DEAB711A1586541000E665E6 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ScriptingBridge.framework; sourceTree = DEVELOPER_DIR; };
+		DEAB7123158654A000E665E6 /* SimplePluginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePluginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAB7128158654A000E665E6 /* SimplePluginApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplePluginApp-Info.plist"; sourceTree = "<group>"; };
+		DEAB712A158654A000E665E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEAB712C158654A000E665E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEAB712E158654A000E665E6 /* SimplePluginApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplePluginApp-Prefix.pch"; sourceTree = "<group>"; };
+		DEAB7130158654A000E665E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DEAB7132158654A000E665E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEAB7133158654A000E665E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEAB7136158654A000E665E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DEAB713B158654FA00E665E6 /* OnOffSwitchControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnOffSwitchControl.h; sourceTree = "<group>"; };
+		DEAB713C158654FA00E665E6 /* OnOffSwitchControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnOffSwitchControl.m; sourceTree = "<group>"; };
+		DEAB713D158654FA00E665E6 /* OnOffSwitchControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnOffSwitchControlCell.h; sourceTree = "<group>"; };
+		DEAB713E158654FA00E665E6 /* OnOffSwitchControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnOffSwitchControlCell.m; sourceTree = "<group>"; };
+		DEAB71411586553A00E665E6 /* SQUPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQUPluginManager.h; path = ../../../SQUPluginManager.h; sourceTree = "<group>"; };
+		DEAB71421586553A00E665E6 /* SQUPluginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQUPluginManager.m; path = ../../../SQUPluginManager.m; sourceTree = "<group>"; };
+		DEAB71431586553A00E665E6 /* SQUPluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQUPluginProtocol.h; path = ../../../SQUPluginProtocol.h; sourceTree = "<group>"; };
+		DEAB71491586568E00E665E6 /* SQUUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQUUtilities.h; path = ../../../SQUUtilities.h; sourceTree = "<group>"; };
+		DEAB714A1586568E00E665E6 /* SQUUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQUUtilities.m; path = ../../../SQUUtilities.m; sourceTree = "<group>"; };
+		DEAB714C1586573B00E665E6 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,14 +99,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEAB7120158654A000E665E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB714D1586573B00E665E6 /* Carbon.framework in Frameworks */,
+				DEAB7125158654A000E665E6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DEAB70EB1586532F00E665E6 = {
 			isa = PBXGroup;
 			children = (
+				DEAB714C1586573B00E665E6 /* Carbon.framework */,
 				DEAB711A1586541000E665E6 /* ScriptingBridge.framework */,
 				DEAB70FF1586533000E665E6 /* SQUiTunesStatusPlugin */,
+				DEAB7126158654A000E665E6 /* SimplePluginApp */,
 				DEAB70F81586533000E665E6 /* Frameworks */,
 				DEAB70F71586533000E665E6 /* Products */,
 			);
@@ -62,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				DEAB70F61586533000E665E6 /* iTunesStatusPlugin.teleplugin */,
+				DEAB7123158654A000E665E6 /* SimplePluginApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +167,38 @@
 			path = SQUiTunesStatusPlugin;
 			sourceTree = "<group>";
 		};
+		DEAB7126158654A000E665E6 /* SimplePluginApp */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB71491586568E00E665E6 /* SQUUtilities.h */,
+				DEAB714A1586568E00E665E6 /* SQUUtilities.m */,
+				DEAB71411586553A00E665E6 /* SQUPluginManager.h */,
+				DEAB71421586553A00E665E6 /* SQUPluginManager.m */,
+				DEAB71431586553A00E665E6 /* SQUPluginProtocol.h */,
+				DEAB713B158654FA00E665E6 /* OnOffSwitchControl.h */,
+				DEAB713C158654FA00E665E6 /* OnOffSwitchControl.m */,
+				DEAB713D158654FA00E665E6 /* OnOffSwitchControlCell.h */,
+				DEAB713E158654FA00E665E6 /* OnOffSwitchControlCell.m */,
+				DEAB7132158654A000E665E6 /* AppDelegate.h */,
+				DEAB7133158654A000E665E6 /* AppDelegate.m */,
+				DEAB7135158654A000E665E6 /* MainMenu.xib */,
+				DEAB7127158654A000E665E6 /* Supporting Files */,
+			);
+			path = SimplePluginApp;
+			sourceTree = "<group>";
+		};
+		DEAB7127158654A000E665E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB7128158654A000E665E6 /* SimplePluginApp-Info.plist */,
+				DEAB7129158654A000E665E6 /* InfoPlist.strings */,
+				DEAB712C158654A000E665E6 /* main.m */,
+				DEAB712E158654A000E665E6 /* SimplePluginApp-Prefix.pch */,
+				DEAB712F158654A000E665E6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,6 +218,25 @@
 			productName = SQUiTunesStatusPlugin;
 			productReference = DEAB70F61586533000E665E6 /* iTunesStatusPlugin.teleplugin */;
 			productType = "com.apple.product-type.bundle";
+		};
+		DEAB7122158654A000E665E6 /* SimplePluginApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAB7138158654A000E665E6 /* Build configuration list for PBXNativeTarget "SimplePluginApp" */;
+			buildPhases = (
+				DEAB711F158654A000E665E6 /* Sources */,
+				DEAB7120158654A000E665E6 /* Frameworks */,
+				DEAB7121158654A000E665E6 /* Resources */,
+				DEAB71451586566D00E665E6 /* Copy Plugin */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAB71481586567D00E665E6 /* PBXTargetDependency */,
+			);
+			name = SimplePluginApp;
+			productName = SimplePluginApp;
+			productReference = DEAB7123158654A000E665E6 /* SimplePluginApp.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -143,6 +260,7 @@
 			projectRoot = "";
 			targets = (
 				DEAB70F51586533000E665E6 /* iTunesStatusPlugin */,
+				DEAB7122158654A000E665E6 /* SimplePluginApp */,
 			);
 		};
 /* End PBXProject section */
@@ -153,10 +271,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEAB71151586537E00E665E6 /* itunes-file.icns in Resources */,
-				DEAB71161586537E00E665E6 /* iTunesStatusPlugin-Info.plist in Resources */,
 				DEAB71171586537E00E665E6 /* InfoPlist.strings in Resources */,
 				DEAB71181586537E00E665E6 /* defaults.plist in Resources */,
 				DEAB71191586537E00E665E6 /* SQUiTunesPrefUI.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB7121158654A000E665E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB712B158654A000E665E6 /* InfoPlist.strings in Resources */,
+				DEAB7131158654A000E665E6 /* Credits.rtf in Resources */,
+				DEAB7137158654A000E665E6 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +298,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEAB711F158654A000E665E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB712D158654A000E665E6 /* main.m in Sources */,
+				DEAB7134158654A000E665E6 /* AppDelegate.m in Sources */,
+				DEAB713F158654FA00E665E6 /* OnOffSwitchControl.m in Sources */,
+				DEAB7140158654FA00E665E6 /* OnOffSwitchControlCell.m in Sources */,
+				DEAB71441586553A00E665E6 /* SQUPluginManager.m in Sources */,
+				DEAB714B1586568E00E665E6 /* SQUUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEAB71481586567D00E665E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEAB70F51586533000E665E6 /* iTunesStatusPlugin */;
+			targetProxy = DEAB71471586567D00E665E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEAB7129158654A000E665E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAB712A158654A000E665E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEAB712F158654A000E665E6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAB7130158654A000E665E6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DEAB7135158654A000E665E6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAB7136158654A000E665E6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DEAB71061586533000E665E6 /* Debug */ = {
@@ -251,6 +426,34 @@
 			};
 			name = Release;
 		};
+		DEAB7139158654A000E665E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePluginApp/SimplePluginApp-Prefix.pch";
+				INFOPLIST_FILE = "SimplePluginApp/SimplePluginApp-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEAB713A158654A000E665E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePluginApp/SimplePluginApp-Prefix.pch";
+				INFOPLIST_FILE = "SimplePluginApp/SimplePluginApp-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -268,6 +471,14 @@
 			buildConfigurations = (
 				DEAB71091586533000E665E6 /* Debug */,
 				DEAB710A1586533000E665E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEAB7138158654A000E665E6 /* Build configuration list for PBXNativeTarget "SimplePluginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB7139158654A000E665E6 /* Debug */,
+				DEAB713A158654A000E665E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
